@@ -6,6 +6,6 @@ read num1
 echo "Enter the second number: "
 read num2
 
-sum=$(expr $num1 + $num2)
+sum=(`expr $num1 + $num2`)
 
 echo "The sum of $num1 and $num2 is: $sum"
